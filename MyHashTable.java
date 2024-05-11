@@ -115,7 +115,7 @@ public class MyHashTable<K, V> {
         int i;
         for(i = 0; i < 10000; ++i) {
             MyTestingClass key = new MyTestingClass("Element" + i);
-            Student value = new Student("Mansur", 17, "0001");
+            Student value = new Student("Yerkin", 18, "0002");
             table.put(key, value);
         }
 
